@@ -14,14 +14,15 @@ opts_chunk$set(message = FALSE)
 opts_chunk$set(echo    = FALSE)
 ```
 
+# Lecture 1 | Natural Language Processing with Deep Learning
 Lecture URL: https://www.youtube.com/watch?v=OQQ-W_63UgQ&list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6
 
 #### Intro  
 * question answering -- major use case  
 * Apple Siri -- start of an arms race  
 
-```{r}
-include_graphics("Screen Shot 2019-01-08 at 10.34.25.png")
+```{r, fig.align='center'}
+include_graphics("../screenshots/Screen Shot 2019-01-08 at 10.34.25.png")
 ```
 
 * This class: syntactic analysis / semantic interpretation  
@@ -66,8 +67,8 @@ Networks for Large-Vocabulary Speech Recognition](https://www.microsoft.com/en-u
 * human languages are ambiguous  
 * slow channel, but works very efficiently as the interpreter fills in a lot of "not said" things from contextual knowledge  
 
-```{r}
-include_graphics("Screen Shot 2019-01-08 at 11.29.48.png")
+```{r, fig.align='center'}
+include_graphics("../screenshots/Screen Shot 2019-01-08 at 11.29.48.png")
 ```
 
 
@@ -79,8 +80,8 @@ include_graphics("Screen Shot 2019-01-08 at 11.29.48.png")
 
 * DL: big success were traditional methods have failed  
 
-```{r}
-include_graphics("Screen Shot 2019-01-08 at 11.39.52.png")
+```{r, fig.align='center'}
+include_graphics("../screenshots/Screen Shot 2019-01-08 at 11.39.52.png")
 ```
 
 * recurrent neural networks -- recognize that "doesn't" negates all the positive words coming after it, something that simple bag-of-words can't do  
@@ -88,8 +89,8 @@ include_graphics("Screen Shot 2019-01-08 at 11.39.52.png")
 * Google Inbox suggested replies  
 * Machine Translation  
 
-```{r}
-include_graphics("Screen Shot 2019-01-08 at 11.44.55.png")
-include_graphics("Screen Shot 2019-01-08 at 11.46.37.png")
+```{r, fig.align='center'}
+include_graphics("../screenshots/Screen Shot 2019-01-08 at 11.44.55.png")
+include_graphics("../screenshots/Screen Shot 2019-01-08 at 11.46.37.png")
 ```
 
